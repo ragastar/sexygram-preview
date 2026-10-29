@@ -1,0 +1,126 @@
+:root,html[data-theme="dark"],html[data-theme="light"]{--header-bg:#FFFFFF;--header-color:#18161A;--header-link-color:#18161A;--header-branding-color:#18161A;--primary:#FFF2F8;--secondary:#18161A;--accent:#18161A;--primary-fg:#18161A;--body-fg:#4A444F;--body-bg:#F4F2F5;--body-quiet-color:#4A444F;--body-loud-color:#18161A;--darkened-bg:#F4F2F5;--selected-bg:#FFF2F8;--selected-row:#FFF2F8;--link-fg:#18161A;--link-hover-color:#18161A;--border-color:#EFECF1;--hairline-color:#EFECF1;--button-bg:#FF8FC4;--button-fg:#18161A;--button-hover-bg:#FFF2F8;--default-button-bg:#FF8FC4;--default-button-hover-bg:#FFF2F8;--close-button-bg:#4A444F;--object-tools-bg:#18161A;--object-tools-hover-bg:#4A444F;color-scheme:light}
+#header{background:white;color:#18161A;border-bottom:1px solid #EFECF1;padding:24px 32px}
+#header a:link,#header a:visited{color:#18161A}
+.sg-logo{font-weight:850;letter-spacing:-1px}
+.sg-logo span{color:#FF5FA8}
+.theme-toggle{display:none}div.breadcrumbs{background:#FFF2F8;color:#4A444F}div.breadcrumbs a{color:#18161A}
+#content{padding:28px 32px}fieldset.module,.inline-group,#changelist,.module{background:white;border-radius:14px;overflow:hidden}fieldset.module{padding:14px;margin-bottom:20px}fieldset h2,.inline-group h2{background:white;color:#18161A;font-size:18px;padding:16px}input,textarea,select{border-radius:8px!important;padding:11px!important;border-color:#8A8290!important}textarea{width:min(100%,720px)}
+.aligned label{float:none;display:block;width:auto;margin-bottom:8px;font-weight:600}
+.aligned .form-row{padding:16px}
+.aligned .form-row>div{width:100%}
+.aligned .form-row input:not([type=checkbox]),.aligned .form-row textarea{max-width:100%;box-sizing:border-box}
+.aligned .help,.aligned p.help{margin-left:0;padding-left:0}
+.product-sections{float:left;width:175px;position:sticky;top:20px;display:grid;gap:16px;padding:20px 0}
+.product-blocks,.inline-group{margin-left:195px}
+#content-main form{padding-bottom:20px}
+.product-save{position:sticky;bottom:0;z-index:5;clear:both;background:white;display:flex;gap:12px;flex-wrap:wrap;margin-bottom:0;padding:16px;border:1px solid #EFECF1}
+.product-save input{float:none!important;margin:0!important}
+.seo-preview{max-width:650px;border:1px solid #EFECF1;border-radius:8px;padding:16px}
+.seo-preview h3{color:#18161A;text-transform:none}
+#changelist-filter{background:white}
+#changelist-filter h2{background:#FFF2F8;color:#18161A}
+.paginator{background:white!important}:focus-visible{outline:3px solid #18161A!important;outline-offset:3px}
+#changelist .results{overflow-x:auto}
+#toolbar{background:white!important}html{scroll-padding-bottom:120px}details:has(.errorlist){content-visibility:visible}
+@media(max-width:767px){#content{padding:20px 12px}
+.product-sections{position:static;float:none;width:auto;display:flex;overflow:auto;gap:18px;margin-bottom:12px}
+.product-sections a{white-space:nowrap}
+.product-blocks,.inline-group{margin-left:0}
+.aligned .form-row{padding:12px 4px}
+.product-save{padding:12px 8px;bottom:0}
+.product-save input{flex:1;white-space:normal;height:auto;min-height:44px}
+.inline-related{overflow:auto}
+#header{padding:18px}
+.aligned input,.aligned textarea,.aligned select{max-width:100%}
+.submit-row a{padding:12px}fieldset.module{padding:10px}}
+.module h2,.module caption,.inline-group h2{background:white;color:#18161A}
+.aligned label:not(.vCheckboxLabel){float:none;display:block;width:auto;padding:0;margin:0 0 8px}
+.aligned .flex-container{display:block}
+.aligned .form-row input:not([type=checkbox]):not([type=file]){width:min(100%,640px)}input,textarea,select{background:white;color:#18161A}
+.model-product.change-form #nav-sidebar,.model-product.change-form #toggle-nav-sidebar{display:none}
+.model-product.change-form #main.shifted > .content{margin-left:0;max-width:100%}
+.product-blocks .module{overflow:visible}
+.product-sections{font-size:14px}
+.product-sections a{overflow-wrap:anywhere}
+.product-save input{width:auto!important}
+.module caption a:link,.module caption a:visited{color:#18161A}
+@font-face{font-family:Unbounded;src:url('fonts/Unbounded.ttf') format('truetype');font-weight:200 900;font-display:swap}
+.sg-logo{font-family:Unbounded,system-ui,sans-serif;font-size:23px;font-weight:700}
+.module h2.fieldset-heading,.inline-group h2{font-size:18px;font-weight:650;border:0;padding:16px;background:white;color:#18161A}
+.model-product .aligned .form-row>div,.model-product .aligned .flex-container{width:100%!important;max-width:100%;box-sizing:border-box}
+.model-product .aligned .help{margin-left:0!important;padding-left:0!important}
+.model-product input,.model-product textarea,.model-product select{background:white;color:#18161A}
+.model-product .submit-row input{background:#FF8FC4;color:#18161A}
+.model-product .product-save{align-items:center}
+.product-sections{max-width:100%;box-sizing:border-box}
+@media(max-width:767px){.model-product .product-save input{flex:1 1 130px}
+.product-sections{flex-wrap:wrap;overflow:visible}
+.product-sections a{white-space:normal}}
+.model-product .product-save{flex-direction:row!important;align-items:center;flex-wrap:wrap}
+.model-product .product-save input{height:46px!important;min-height:46px;flex:1 1 145px;max-width:260px;font-size:13px;text-transform:none!important}
+.sg-logo{color:#18161A!important}
+.sg-logo>span{color:#FF5FA8}
+.product-empty{text-align:center;padding:70px 20px;background:white}
+.product-empty h2{font-size:22px}
+.product-empty p{margin-bottom:24px}
+.product-empty .button{display:inline-block;padding:14px 20px;border-radius:8px;background:#FF8FC4;color:#18161A}
+#changelist-filter{border-left:1px solid #EFECF1}
+#changelist-search input[type=search]{min-width:180px}
+#changelist .results table img{vertical-align:middle}
+.object-tools a:link,.object-tools a:visited{background-color:#FF8FC4;color:#18161A}.object-tools a:hover{background-color:#FFF2F8;color:#18161A}.object-tools{display:flex;gap:8px;flex-wrap:wrap}.object-tools li{height:auto;margin:0}#changelist #toolbar form>div{display:flex;gap:8px;align-items:center;flex-wrap:wrap}#changelist #toolbar #searchbar{width:min(100%,420px);min-width:140px;box-sizing:border-box;flex:1 1 180px}#changelist.filtered .results,#changelist.filtered .paginator,#changelist.filtered #toolbar{margin-right:0!important}#changelist .changelist-form-container{width:100%;min-width:0}#changelist #changelist-filter.product-filters{position:static;float:none;width:auto;max-width:100%;border:0;margin:0;padding:12px 20px;display:flex;gap:16px;align-items:flex-start;flex-wrap:wrap;background:white;box-sizing:border-box}#changelist-filter.product-filters details{border:1px solid #EFECF1;border-radius:8px;min-width:160px;max-width:100%;margin:0}#changelist-filter.product-filters ul{max-height:180px;overflow:auto}#changelist-filter.product-filters summary{padding:12px}#changelist-filter.product-filters a{overflow-wrap:anywhere}@media(max-width:767px){.object-tools{float:none;margin:16px 0!important;padding:0!important;justify-content:flex-start}.object-tools a{padding:10px 16px!important}.object-tools li{margin:0!important}#changelist #changelist-filter.product-filters{padding:12px;gap:8px}.product-filters details{flex:1}}
+#nav-sidebar .current-app .section{color:#18161A}.object-tools a:link,.object-tools a:visited{font-size:13px;text-transform:none;letter-spacing:0;display:inline-flex;align-items:center;min-height:40px;box-sizing:border-box;padding:8px 18px}#changelist #toolbar #searchbar,#changelist #toolbar input[type=submit]{height:44px;box-sizing:border-box}
+#nav-sidebar .current-app .section:link,#nav-sidebar .current-app .section:visited{color:#18161A}.model-product.change-list .object-tools{float:none;justify-content:flex-end;margin:0 0 20px!important}.model-product.change-list #changelist{clear:both;width:100%;box-sizing:border-box}.model-product.change-list #content-main{width:100%}
+
+/* Django styles summaries independently of their heading children. */
+#content .module.collapse > details > summary {
+    display: list-item;
+    background: #FFFFFF;
+    color: #18161A;
+    border: 0;
+    border-radius: 8px;
+    margin: 0;
+    padding: 16px;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 650;
+    overflow-wrap: anywhere;
+}
+#content .module.collapse > details > summary:hover { background: #FFF2F8; }
+#content .module.collapse > details > summary::marker { color: #18161A; }
+#content .module.collapse > details > summary .fieldset-heading,
+#content .module.collapse > details > summary .inline-heading {
+    display: inline;
+    background: transparent;
+    color: inherit;
+    border: 0;
+    margin: 0;
+    padding: 0;
+    font-size: inherit;
+    font-weight: inherit;
+    text-transform: none;
+}
+#content .module.collapse > details > summary:focus-visible {
+    outline: 2px solid #18161A !important;
+    outline-offset: 2px;
+}
+/* The same state for every save action, including Django's default button. */
+.model-product .product-save input[type="submit"]:hover,
+.model-product .product-save input[type="submit"]:focus-visible {
+    background: #FFF2F8;
+    color: #18161A;
+}
+.inline-help {margin: 0 16px 20px; color: #4A444F; line-height: 1.5;}
+#discount-preview {font-weight: 600; color: #18161A; padding: 6px 0;}
+.publication-status{display:inline-block;padding:5px 10px;border-radius:7px;font-weight:600;white-space:nowrap}
+.publication-status.is-draft{background:#F4F2F5;color:#4A444F}.publication-status.is-published{background:#FFF2F8;color:#18161A}
+.status-tabs{display:flex;gap:12px;flex-wrap:wrap;padding:16px 20px;background:white}
+.status-tabs a{display:inline-block;padding:10px 14px;border:1px solid #EFECF1;border-radius:8px;color:#18161A}
+.status-tabs a[aria-current="page"]{background:#FFF2F8;border-color:#FF8FC4}.status-tabs span{margin-left:6px;color:#4A444F}
+#content .sg-category-picker>summary{background:white;color:#18161A;border:0;font-weight:400;font-size:14px}
+.video-thumbnail{display:inline-block;background:#FFF2F8;padding:12px 6px;border-radius:8px;white-space:nowrap}
+.media-order-button{display:block;margin-top:6px;padding:7px 10px;border:1px solid #EFECF1;border-radius:6px;background:#FFF2F8;color:#18161A;cursor:pointer}
+.preview-notice{padding:16px;background:#fff2f8;border-radius:12px;color:#18161a}.product-preview{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:32px;background:white;color:#18161a;padding:24px;border-radius:20px;margin-top:20px}.preview-gallery img,.preview-gallery video{width:100%;max-height:600px;object-fit:contain;margin-bottom:16px;border-radius:12px}.product-preview strong{font-size:26px}.product-preview dl{display:grid;grid-template-columns:1fr 1fr;gap:12px}.product-preview dd{margin:0}@media(max-width:767px){.product-preview{grid-template-columns:1fr;padding:16px;gap:16px}}
+/* Каталог: список и дерево, 20 октября 2026 */
+#content h1 small{font-size:15px;color:#4A444F;margin-left:12px}.product-title,.category-summary{display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;max-width:300px;white-space:normal;overflow-wrap:anywhere}.product-sku,.field-sale_price small{display:block;color:#4A444F;margin-top:5px}.secondary-tool a:link,.secondary-tool a:visited{background:white;border:1px solid #d4cdd7}.catalog-count-hint,.selection-scope,.active-selection{padding:8px 20px;color:#4A444F}.selection-scope{font-size:13px}.active-selection{background:#FFF2F8}#changelist table td,#changelist table th{vertical-align:middle}.category-tree{padding:12px}.category-branch{border:1px solid #EFECF1;border-radius:8px;margin:8px 0}.category-branch .category-branch{margin-left:24px}.category-branch summary{background:white;color:#18161A;padding:14px;cursor:pointer;overflow-wrap:anywhere}.category-branch summary:hover{background:#FFF2F8}.category-commands{display:flex;flex-wrap:wrap;gap:14px;padding:14px}.category-commands>span{flex-basis:100%;color:#4A444F;overflow-wrap:anywhere}.category-commands a{padding:8px;border:1px solid #EFECF1;border-radius:6px}#changelist .actions{display:flex;gap:8px;flex-wrap:wrap;align-items:center}#changelist .actions .action-counter{white-space:normal}a:focus-visible,button:focus-visible,summary:focus-visible{outline:3px solid #18161A;outline-offset:3px}
+@media(max-width:767px){#content h1 small{display:block;margin:8px 0}.category-branch .category-branch{margin-left:12px}#result_list thead{display:none}#result_list,#result_list tbody{display:block;width:100%}#result_list tbody tr{display:grid;grid-template-columns:32px 58px minmax(0,1fr);padding:12px;border-bottom:2px solid #EFECF1}#result_list tbody td,#result_list tbody th{display:block;border:0;padding:6px!important;min-width:0;overflow-wrap:anywhere;white-space:normal}#result_list .action-checkbox{grid-column:1;grid-row:1 / span 3}#result_list .field-thumbnail{grid-column:2;grid-row:1 / span 3}#result_list .field-product_title,#result_list .field-publication_status,#result_list .field-category_names,#result_list .field-sale_price,#result_list .field-stock,#result_list .field-preview_link{grid-column:3}#result_list .field-stock:before{content:'Остаток: '}.category-summary,.product-title{max-width:100%}#changelist .actions select{max-width:100%}}
+@media(max-width:767px){#result_list thead{display:block}#result_list thead tr{display:block;padding:12px}#result_list thead th{display:none}#result_list thead th.action-checkbox-column{display:block}#result_list thead th.action-checkbox-column:after{content:' Выбрать текущую страницу';font-size:14px;font-weight:400}#changelist .actions label{max-width:100%;white-space:normal}#changelist .actions label select{width:100%}.category-commands a{min-height:24px}}

@@ -1,0 +1,28 @@
+.sg-photo-previews {display:flex;flex-wrap:wrap;gap:12px;margin:8px 0;}
+.sg-photo-card {width:160px;padding:10px;border:1px solid var(--hairline-color);border-radius:6px;box-sizing:border-box;}
+.sg-photo-card img {display:block;width:138px;height:120px;object-fit:contain;}
+.sg-photo-card p {overflow-wrap:anywhere;margin:8px 0;}
+.sg-photo-controls {display:flex;gap:5px;flex-wrap:wrap;}
+.sg-photo-controls button {cursor:pointer;min-height:34px;padding:4px 8px;color:var(--body-fg);background:var(--body-bg);border:1px solid var(--border-color);border-radius:4px;}
+.sg-photo-controls button:disabled {opacity:.35;cursor:default;}
+.sg-photo-controls button:focus-visible {outline:2px solid var(--link-fg);outline-offset:2px;}
+.sg-photo-status {margin:8px 0!important;}
+@media(max-width:767px) {.sg-photo-card {width:145px;}.sg-photo-card img {width:123px;}}
+
+.sg-category-picker {max-width:700px;}
+.sg-category-picker .sg-category-search {width:100%;max-width:420px;margin-bottom:10px;}
+.sg-category-options {max-height:260px;overflow:auto;border:1px solid var(--hairline-color);padding:6px 12px;border-radius:4px;}
+.sg-category-options label {float:none!important;display:block!important;width:auto!important;padding:6px 0!important;line-height:1.5!important;}
+.sg-category-options input {margin-right:6px;}
+.sg-category-options [hidden] {display:none!important;}
+.sg-category-options div {margin:0!important;}
+@media(max-width:767px) {.sg-category-picker {width:100%;}.sg-category-options {max-height:220px;}}
+.sg-photo-card video{display:block;width:100%;height:120px;object-fit:contain;background:#F4F2F5}
+.sg-category-picker{background:#FFFFFF;border:1px solid #8A8290;border-radius:8px;overflow:visible;margin:0}
+.sg-category-picker>summary{padding:12px;cursor:pointer;color:#18161A;display:list-item}
+.sg-category-count{float:right;font-size:12px;color:#4A444F;margin-left:10px}
+.sg-category-panel{padding:12px;border-top:1px solid #EFECF1}
+.sg-category-panel .sg-category-search{margin:0 0 8px;box-sizing:border-box;max-width:100%;width:100%}
+.sg-category-options label{cursor:pointer}
+.sg-category-done{padding:8px 18px;margin-top:10px;background:#FF8FC4;color:#18161A;border:0;border-radius:8px;cursor:pointer}
+.sg-category-done:hover{background:#FFF2F8}
